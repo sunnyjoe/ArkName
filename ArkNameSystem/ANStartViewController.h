@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ANBasicViewController.h"
 
-@interface ANStartViewController : ANBasicViewController
+@interface ANStartViewController : UIViewController
 
 @end
 

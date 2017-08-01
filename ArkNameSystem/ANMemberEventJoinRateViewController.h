@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ANBasicViewController.h"
 
-@interface ANMemberEventJoinRateViewController : ANBasicViewController
+@interface ANMemberEventJoinRateViewController : UIViewController
 @property(strong, nonatomic) NSMutableDictionary *memberJoinDic;
 @property(assign, nonatomic) NSInteger eventTotalTime;
 @property(strong, nonatomic) NSString *fromDateStr;

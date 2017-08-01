@@ -6,10 +6,9 @@
 //  Copyright (c) 2015 ArkName. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "ANBasicViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface ANEventJoinMemberViewInfoController : ANBasicViewController
+@interface ANEventJoinMemberViewInfoController : UIViewController
 @property (strong, nonatomic)  NSString *dateStr;
 @property (strong, nonatomic)  NSString *eventName;
 @end

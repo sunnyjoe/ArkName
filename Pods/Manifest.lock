@@ -1,0 +1,22 @@
+PODS:
+  - RxCocoa (3.2.0):
+    - RxSwift (~> 3.1)
+  - RxSwift (3.2.0)
+  - SnapKit (3.2.0)
+  - UIColor_Hex_Swift (3.0.2)
+
+DEPENDENCIES:
+  - RxCocoa (~> 3.2.0)
+  - RxSwift (~> 3.2.0)
+  - SnapKit (~> 3.2.0)
+  - UIColor_Hex_Swift (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
+
+PODFILE CHECKSUM: 9754af6a3a3193046a8ecba8bcf2298dbf8be5a0
+
+COCOAPODS: 1.2.0

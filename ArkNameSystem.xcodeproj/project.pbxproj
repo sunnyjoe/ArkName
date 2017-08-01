@@ -10,8 +10,8 @@
 		0F212A491B88047600E46D76 /* ANStatis.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F212A481B88047600E46D76 /* ANStatis.m */; };
 		0FBECDFE1B6C5BAE0015B379 /* ArkNameDataStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FBECDFC1B6C5BAE0015B379 /* ArkNameDataStore.xcdatamodeld */; };
 		0FBECE041B7A43DA0015B379 /* ANMemberEventJoinRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBECE031B7A43DA0015B379 /* ANMemberEventJoinRateViewController.m */; };
+		7A450A88F2171FB27FF5D682 /* Pods_ArkNameSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ADAA2ED3F52A34721A89C1F /* Pods_ArkNameSystem.framework */; };
 		989712701B7B32CD005FA1CF /* ANMemberNotJoinRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9897126F1B7B32CD005FA1CF /* ANMemberNotJoinRateViewController.m */; };
-		989CEF8A1B8B3784001FF8D2 /* ANBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989CEF891B8B3784001FF8D2 /* ANBasicViewController.m */; };
 		989CEF901B8C498D001FF8D2 /* ANEventJoinMemberViewInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989CEF8F1B8C498D001FF8D2 /* ANEventJoinMemberViewInfoController.m */; };
 		989CEF941B8C6B95001FF8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989CEF931B8C6B95001FF8D2 /* LaunchScreen.storyboard */; };
 		98B75E0A1B65D26500A5A9FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B75E091B65D26500A5A9FF /* main.m */; };
@@ -41,6 +41,15 @@
 		98C480911B6A26030011591E /* chack.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C480861B6A26030011591E /* chack.png */; };
 		98C480921B6A26030011591E /* NSDate+WQCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C480891B6A26030011591E /* NSDate+WQCalendarLogic.m */; };
 		98FFB9631B7B41470044C9A5 /* ANEventJoinNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FFB9621B7B41470044C9A5 /* ANEventJoinNumberViewController.m */; };
+		C9706AA51F2ED1ED00067392 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9706AA41F2ED1ED00067392 /* AddViewController.swift */; };
+		C9706AA91F2ED59500067392 /* ListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9706AA81F2ED59500067392 /* ListTableView.swift */; };
+		C9706AAE1F2EE64100067392 /* Dataconvert.m in Sources */ = {isa = PBXBuildFile; fileRef = C9706AAD1F2EE64100067392 /* Dataconvert.m */; };
+		C9706AB01F2EFC7D00067392 /* NameScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9706AAF1F2EFC7D00067392 /* NameScrollView.swift */; };
+		C9706AB21F2F0B2100067392 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9706AB11F2F0B2100067392 /* UIViewExtension.swift */; };
+		C9706AB41F2F0E9300067392 /* EventJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9706AB31F2F0E9300067392 /* EventJoinViewController.swift */; };
+		C9706AB61F30264F00067392 /* JoinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9706AB51F30264F00067392 /* JoinedView.swift */; };
+		C9706AB81F30276500067392 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9706AB71F30276500067392 /* Color.swift */; };
+		C9706ABA1F3030D500067392 /* NotJoinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9706AB91F3030D500067392 /* NotJoinedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,10 +69,10 @@
 		0FBECDFD1B6C5BAE0015B379 /* ArkNameDataStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArkNameDataStore.xcdatamodel; sourceTree = "<group>"; };
 		0FBECE021B7A43DA0015B379 /* ANMemberEventJoinRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMemberEventJoinRateViewController.h; sourceTree = "<group>"; };
 		0FBECE031B7A43DA0015B379 /* ANMemberEventJoinRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMemberEventJoinRateViewController.m; sourceTree = "<group>"; };
+		4A9E3D54F7770AD08EEC7BC7 /* Pods-ArkNameSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkNameSystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArkNameSystem/Pods-ArkNameSystem.release.xcconfig"; sourceTree = "<group>"; };
+		4DFC9FB6D2D358B966833416 /* Pods-ArkNameSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkNameSystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArkNameSystem/Pods-ArkNameSystem.debug.xcconfig"; sourceTree = "<group>"; };
 		9897126E1B7B32CD005FA1CF /* ANMemberNotJoinRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMemberNotJoinRateViewController.h; sourceTree = "<group>"; };
 		9897126F1B7B32CD005FA1CF /* ANMemberNotJoinRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMemberNotJoinRateViewController.m; sourceTree = "<group>"; };
-		989CEF881B8B3784001FF8D2 /* ANBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANBasicViewController.h; sourceTree = "<group>"; };
-		989CEF891B8B3784001FF8D2 /* ANBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANBasicViewController.m; sourceTree = "<group>"; };
 		989CEF8F1B8C498D001FF8D2 /* ANEventJoinMemberViewInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEventJoinMemberViewInfoController.m; sourceTree = "<group>"; };
 		989CEF931B8C6B95001FF8D2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98B75E041B65D26500A5A9FF /* ArkNameSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArkNameSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +128,19 @@
 		98C480891B6A26030011591E /* NSDate+WQCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WQCalendarLogic.m"; sourceTree = "<group>"; };
 		98FFB9611B7B41470044C9A5 /* ANEventJoinNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEventJoinNumberViewController.h; sourceTree = "<group>"; };
 		98FFB9621B7B41470044C9A5 /* ANEventJoinNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEventJoinNumberViewController.m; sourceTree = "<group>"; };
+		9ADAA2ED3F52A34721A89C1F /* Pods_ArkNameSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArkNameSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9706AA11F2ED1A800067392 /* ArkNameSystem-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArkNameSystem-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9706AA41F2ED1ED00067392 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		C9706AA81F2ED59500067392 /* ListTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableView.swift; sourceTree = "<group>"; };
+		C9706AAC1F2EE64100067392 /* Dataconvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dataconvert.h; sourceTree = "<group>"; };
+		C9706AAD1F2EE64100067392 /* Dataconvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dataconvert.m; sourceTree = "<group>"; };
+		C9706AAF1F2EFC7D00067392 /* NameScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameScrollView.swift; sourceTree = "<group>"; };
+		C9706AB11F2F0B2100067392 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		C9706AB31F2F0E9300067392 /* EventJoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventJoinViewController.swift; sourceTree = "<group>"; };
+		C9706AB51F30264F00067392 /* JoinedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinedView.swift; sourceTree = "<group>"; };
+		C9706AB71F30276500067392 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C9706AB91F3030D500067392 /* NotJoinedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotJoinedView.swift; sourceTree = "<group>"; };
+		E60EC5D54A8E888BEE7DC81D /* libPods-ArkNameSystemTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArkNameSystemTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98B75E3B1B65DB6900A5A9FF /* CoreData.framework in Frameworks */,
+				7A450A88F2171FB27FF5D682 /* Pods_ArkNameSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,12 +163,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3547D844AC72128ABBFC3BFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E60EC5D54A8E888BEE7DC81D /* libPods-ArkNameSystemTests.a */,
+				9ADAA2ED3F52A34721A89C1F /* Pods_ArkNameSystem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D9C5506818577BB22B5CF34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC9FB6D2D358B966833416 /* Pods-ArkNameSystem.debug.xcconfig */,
+				4A9E3D54F7770AD08EEC7BC7 /* Pods-ArkNameSystem.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		98B75DFB1B65D26500A5A9FF = {
 			isa = PBXGroup;
 			children = (
 				98B75E061B65D26500A5A9FF /* ArkNameSystem */,
 				98B75E201B65D26600A5A9FF /* ArkNameSystemTests */,
 				98B75E051B65D26500A5A9FF /* Products */,
+				7D9C5506818577BB22B5CF34 /* Pods */,
+				3547D844AC72128ABBFC3BFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,6 +254,8 @@
 				98B75E4A1B6602FE00A5A9FF /* ArkNameEvents.m */,
 				98B75E431B65F84400A5A9FF /* ArkNameMembers.h */,
 				98B75E441B65F84400A5A9FF /* ArkNameMembers.m */,
+				C9706AAC1F2EE64100067392 /* Dataconvert.h */,
+				C9706AAD1F2EE64100067392 /* Dataconvert.m */,
 				98B75E311B65D37A00A5A9FF /* ArkNameCoreData.h */,
 				98B75E321B65D37A00A5A9FF /* ArkNameCoreData.m */,
 				98B75E371B65DA9000A5A9FF /* ArkNameDataContainer.h */,
@@ -243,6 +288,9 @@
 				98B75E4C1B660B6400A5A9FF /* Setting */,
 				98B75E0E1B65D26500A5A9FF /* ANStartViewController.h */,
 				98B75E0F1B65D26500A5A9FF /* ANStartViewController.m */,
+				C9706AA11F2ED1A800067392 /* ArkNameSystem-Bridging-Header.h */,
+				C9706AB11F2F0B2100067392 /* UIViewExtension.swift */,
+				C9706AB71F30276500067392 /* Color.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -264,6 +312,9 @@
 				98B75E511B660FD400A5A9FF /* ANEventEditorViewController.m */,
 				98B75E531B661BB900A5A9FF /* ANEditorMemberViewController.h */,
 				98B75E541B661BB900A5A9FF /* ANEditorMemberViewController.m */,
+				C9706AA41F2ED1ED00067392 /* AddViewController.swift */,
+				C9706AA81F2ED59500067392 /* ListTableView.swift */,
+				C9706AAF1F2EFC7D00067392 /* NameScrollView.swift */,
 			);
 			name = Setting;
 			sourceTree = "<group>";
@@ -275,6 +326,9 @@
 				98B75E5B1B663A2100A5A9FF /* ANEventJoinViewController.m */,
 				98B75E601B663E1F00A5A9FF /* ANEventJoinToolViewController.h */,
 				98B75E611B663E1F00A5A9FF /* ANEventJoinToolViewController.m */,
+				C9706AB31F2F0E9300067392 /* EventJoinViewController.swift */,
+				C9706AB91F3030D500067392 /* NotJoinedView.swift */,
+				C9706AB51F30264F00067392 /* JoinedView.swift */,
 				98B75E9B1B69DA9A00A5A9FF /* ANMumberCollectionViewCell.h */,
 				98B75E9C1B69DA9A00A5A9FF /* ANMumberCollectionViewCell.m */,
 				0FBECE021B7A43DA0015B379 /* ANMemberEventJoinRateViewController.h */,
@@ -317,8 +371,6 @@
 				98C480871B6A26030011591E /* Color.h */,
 				98C480881B6A26030011591E /* NSDate+WQCalendarLogic.h */,
 				98C480891B6A26030011591E /* NSDate+WQCalendarLogic.m */,
-				989CEF881B8B3784001FF8D2 /* ANBasicViewController.h */,
-				989CEF891B8B3784001FF8D2 /* ANBasicViewController.m */,
 			);
 			path = ZFCalendar;
 			sourceTree = "<group>";
@@ -330,9 +382,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98B75E271B65D26600A5A9FF /* Build configuration list for PBXNativeTarget "ArkNameSystem" */;
 			buildPhases = (
+				DCE1A34655B1F45F9EF7CF14 /* [CP] Check Pods Manifest.lock */,
 				98B75E001B65D26500A5A9FF /* Sources */,
 				98B75E011B65D26500A5A9FF /* Frameworks */,
 				98B75E021B65D26500A5A9FF /* Resources */,
+				D762D23EF8FB57F4DF98CF14 /* [CP] Embed Pods Frameworks */,
+				A12D4D1EF786208DBE17A2C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -372,7 +427,9 @@
 				TargetAttributes = {
 					98B75E031B65D26500A5A9FF = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 34KN7V6Q6V;
+						DevelopmentTeam = NW4B2RFZ4C;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
 					};
 					98B75E1C1B65D26600A5A9FF = {
 						CreatedOnToolsVersion = 6.4;
@@ -420,6 +477,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A12D4D1EF786208DBE17A2C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArkNameSystem/Pods-ArkNameSystem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D762D23EF8FB57F4DF98CF14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArkNameSystem/Pods-ArkNameSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCE1A34655B1F45F9EF7CF14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98B75E001B65D26500A5A9FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -429,25 +534,33 @@
 				98B75E551B661BB900A5A9FF /* ANEditorMemberViewController.m in Sources */,
 				98B75E4F1B660B8300A5A9FF /* ANSettingMainViewController.m in Sources */,
 				98B75E521B660FD400A5A9FF /* ANEventEditorViewController.m in Sources */,
+				C9706AAE1F2EE64100067392 /* Dataconvert.m in Sources */,
 				989CEF901B8C498D001FF8D2 /* ANEventJoinMemberViewInfoController.m in Sources */,
+				C9706AB21F2F0B2100067392 /* UIViewExtension.swift in Sources */,
+				C9706ABA1F3030D500067392 /* NotJoinedView.swift in Sources */,
 				98B75E101B65D26500A5A9FF /* ANStartViewController.m in Sources */,
 				98C4808A1B6A26030011591E /* CalendarDayCell.m in Sources */,
 				98C480921B6A26030011591E /* NSDate+WQCalendarLogic.m in Sources */,
+				C9706AB81F30276500067392 /* Color.swift in Sources */,
 				98B75EA01B69F7CB00A5A9FF /* ArkNameMemberJoinInfo.m in Sources */,
 				98B75E0D1B65D26500A5A9FF /* AppDelegate.m in Sources */,
 				0FBECDFE1B6C5BAE0015B379 /* ArkNameDataStore.xcdatamodeld in Sources */,
 				98B75E621B663E1F00A5A9FF /* ANEventJoinToolViewController.m in Sources */,
 				98C4808B1B6A26030011591E /* CalendarDayModel.m in Sources */,
+				C9706AA51F2ED1ED00067392 /* AddViewController.swift in Sources */,
 				98C480901B6A26030011591E /* CalendarViewController.m in Sources */,
 				98FFB9631B7B41470044C9A5 /* ANEventJoinNumberViewController.m in Sources */,
 				98C4808F1B6A26030011591E /* CalendarMonthHeaderView.m in Sources */,
 				989712701B7B32CD005FA1CF /* ANMemberNotJoinRateViewController.m in Sources */,
-				989CEF8A1B8B3784001FF8D2 /* ANBasicViewController.m in Sources */,
 				0F212A491B88047600E46D76 /* ANStatis.m in Sources */,
 				98B75E331B65D37A00A5A9FF /* ArkNameCoreData.m in Sources */,
+				C9706AA91F2ED59500067392 /* ListTableView.swift in Sources */,
 				98B75E5C1B663A2100A5A9FF /* ANEventJoinViewController.m in Sources */,
 				98B75E4B1B6602FE00A5A9FF /* ArkNameEvents.m in Sources */,
+				C9706AB61F30264F00067392 /* JoinedView.swift in Sources */,
 				98B75E0A1B65D26500A5A9FF /* main.m in Sources */,
+				C9706AB41F2F0E9300067392 /* EventJoinViewController.swift in Sources */,
+				C9706AB01F2EFC7D00067392 /* NameScrollView.swift in Sources */,
 				98C4808E1B6A26030011591E /* CalendarMonthCollectionViewLayout.m in Sources */,
 				0FBECE041B7A43DA0015B379 /* ANMemberEventJoinRateViewController.m in Sources */,
 				98B75E9D1B69DA9A00A5A9FF /* ANMumberCollectionViewCell.m in Sources */,
@@ -512,7 +625,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -551,7 +664,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -562,45 +675,59 @@
 		};
 		98B75E281B65D26600A5A9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFC9FB6D2D358B966833416 /* Pods-ArkNameSystem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NW4B2RFZ4C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ArkNameSystem/parse-library-1.8.0",
 				);
 				INFOPLIST_FILE = ArkNameSystem/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "edc2ee42-7486-467e-a9ef-59e825742d83";
+				PROVISIONING_PROFILE_SPECIFIER = "Test Dev";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArkNameSystem/ArkNameSystem-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		98B75E291B65D26600A5A9FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A9E3D54F7770AD08EEC7BC7 /* Pods-ArkNameSystem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NW4B2RFZ4C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ArkNameSystem/parse-library-1.8.0",
 				);
 				INFOPLIST_FILE = ArkNameSystem/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "edc2ee42-7486-467e-a9ef-59e825742d83";
+				PROVISIONING_PROFILE_SPECIFIER = "Test Dev";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArkNameSystem/ArkNameSystem-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		98B75E2B1B65D26600A5A9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -620,6 +747,7 @@
 		98B75E2C1B65D26600A5A9FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

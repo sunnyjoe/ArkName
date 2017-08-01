@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ANBasicViewController.h"
-@interface ANEventJoinNumberViewController : ANBasicViewController
+
+@interface ANEventJoinNumberViewController : UIViewController
 @property(strong, nonatomic) NSString *fromDateStr;
 @property(strong, nonatomic) NSString *toDateStr;
 @property(strong, nonatomic) NSString *eventName;

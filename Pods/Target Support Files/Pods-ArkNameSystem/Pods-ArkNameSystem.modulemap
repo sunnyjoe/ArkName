@@ -1,0 +1,6 @@
+framework module Pods_ArkNameSystem {
+  umbrella header "Pods-ArkNameSystem-umbrella.h"
+
+  export *
+  module * { export * }
+}

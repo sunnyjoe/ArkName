@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ANBasicViewController.h"
 @class ArkNameMembers;
-@interface ANEditorMemberViewController : ANBasicViewController
-@property (strong, nonatomic) ArkNameMembers *startMember;
+@interface ANEditorMemberViewController : UIViewController
+@property (strong, nonatomic) NSString *memberName;
 @end

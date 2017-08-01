@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ANBasicViewController.h"
 
 #define kArkNameMinDate @"1000-01-01"
 
-@interface ANMemberNotJoinRateViewController : ANBasicViewController
+@interface ANMemberNotJoinRateViewController : UIViewController
 @property(strong, nonatomic) NSMutableDictionary *memberJoinDate;
 @property(strong, nonatomic) NSMutableDictionary *memberJoinCnt;
 

@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ANBasicViewController.h"
 
 @class ArkNameEvents;
 
-@interface ANEventJoinToolViewController : ANBasicViewController
+@interface ANEventJoinToolViewController : UIViewController
 @property (strong, nonatomic) NSString *eventName;
 @end
